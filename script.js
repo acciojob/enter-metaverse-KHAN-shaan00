@@ -1,6 +1,7 @@
 //your JS code here. If required.
-let para=document.getElementById("p1");
-let btn=document.getElementById("b1");
-btn.addEventListener("click",()=>{
-    para.innerHTML="<h1>Entered Mataverse</h1>"
-})
+let para = document.getElementById("status");
+let btn = document.getElementById("enterBtn");
+
+btn.addEventListener("click", () => {
+    para.outerHTML = "<h1>Entered Metaverse</h1>";
+});
